@@ -1,0 +1,12 @@
+<div class="container container-form-login">
+  <div class="login-logo">
+    <img src="assets/img/logo-a.jpg" class="logo-login-img">
+  </div>
+  <div class="login-form">
+    <form class="form" [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
+      <input id="username" type="text" formControlName="username" class="form-control" placeholder="Usuário">
+      <input id="password" type="text" formControlName="password" class="form-control" placeholder="Senha">
+      <button type="submit" class="btn btn-success">Entrar</button>
+    </form>
+  </div>
+</div>

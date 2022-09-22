@@ -1,0 +1,34 @@
+<div class="container container-form-cliente">
+  <form class="form form-cliente" [formGroup]="formCliente" (ngSubmit)="onSubmit()" >
+  <input id="nome" type="text" formControlName="nome" class="form-control" placeholder="Nome Completo">
+  <button type="button" class="btn btn-success">Pesquisar</button>
+  <button type="button" class="btn btn-success" (click) = "goToRegister()">Adicionar</button>
+  </form>
+  </div>
+
+  <div class="container">
+
+  <table class="table table-striped table-users">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Idade</th>
+      <th>Saldo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>$85</td>
+    </tr>
+    <tr>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>$96</td>
+    </tr>
+  </tbody>
+  </table>
+
+  </div>
+

@@ -1,0 +1,11 @@
+<div class="container container-form-cadastro">
+  <div class="cadastro-form">
+    <form class="form" [formGroup]="formCadastro" (ngSubmit)="onSubmit()" >
+      <input id="nome" type="text" formControlName="nomeCompleto" class="form-control" placeholder="Nome Completo">
+      <input id="idade" type="date" formControlName="idade" class="form-control" placeholder="Idade">
+      <button type="onSubmit" class="btn btn-success" (click) = "backToList()"> Salvar</button>
+    </form>
+  </div>
+</div>
+
+

@@ -1,0 +1,20 @@
+<div class="container container-form-cadastro">
+  <div class="cadastro-form">
+    <form class="form" [formGroup]="formCadastroAtivos" (ngSubmit)="onSubmit()" >
+      <input id="ativo" type="text" formControlName="ativo" class="form-control" placeholder="Ativos">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Grupo de Ativo</option>
+        <option value="1">Renda fixa</option>
+        <option value="2">Renda Variável</option>
+        <option value="3">Fundos</option>
+        <option value="3">Ações</option>
+        <option value="3">Tesouro direto</option>
+        <option value="3">Poupança</option>
+        <option value="3">Criptomodeda</option>
+      </select>
+      <button type="button" class="btn btn-success" (click) = "backToListAtivos()"> Salvar</button>
+    </form>
+  </div>
+</div>
+
+

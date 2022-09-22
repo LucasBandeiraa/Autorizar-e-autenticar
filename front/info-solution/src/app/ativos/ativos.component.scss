@@ -1,0 +1,38 @@
+.nav-cadastro{
+  background-color: #0a2140 !important;
+}
+.link-nav{
+  color:aliceblue !important;
+  margin-left: 78%;
+}
+.link-gerentes{
+  color: white !important;
+}
+.link-ativos{
+  color: white !important;
+}
+.link-sair{
+  color: white !important;
+}
+
+  .logo-cadastro-img{
+    width: 180px;
+  }
+  .container-form-cadastro{
+    width: 100%;
+    height: 12vh;
+    margin-top: 40px;
+
+    form{
+      display: flex;
+
+      button{
+        margin-left: 4px;
+        background-color: #0a2140;
+      }
+      input{
+        margin: 4px;
+      };
+    }
+  }
+
